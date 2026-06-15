@@ -3,6 +3,16 @@ name: deep-research
 description: >
   深度调研技能（Iterative Deep Research Framework）。
   把复杂问题拆解成子问题，并行搜索、交叉验证、迭代深化，最终输出结构化研究报告。
+
+## 🚫 When NOT To Use
+- 用户需要的是金融/投资专属分析（行情、板块、选股）→ 用 `investment-advisor` 或 `stock-picker-pipeline`
+- 用户只需要简单的事实查询（查个定义、看个数字）→ 直接回答无需深度调研
+- 用户只需要获取最新新闻/热点 → 用 TrendRadar 工具
+- 调查内容仅限于获取单个 URL 的内容 → 用 `web_fetch` 即可
+
+## 🔗 Related Skills
+- **investment-advisor**: 金融领域专精的深度调研（事件驱动+产业链传导），deep-research 是通用框架不限领域
+- **trendradar**: 热点监控，deep-research 做纵深调研而非横向监测
   零外部依赖，仅用 OpenClaw 内置工具（web_search / web_fetch / sessions_spawn）。
   
   SearXNG 集成：web_search 已自动路由到 SearXNG（当配置为搜索提供商时），
