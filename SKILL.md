@@ -3,6 +3,7 @@ name: deep-research
 description: >
   深度调研技能（Iterative Deep Research Framework）。
   把复杂问题拆解成子问题，并行搜索、交叉验证、迭代深化，最终输出结构化研究报告。
+---
 
 ## 🚫 When NOT To Use
 - 用户需要的是金融/投资专属分析（行情、板块、选股）→ 用 `investment-advisor` 或 `stock-picker-pipeline`
@@ -31,7 +32,6 @@ description: >
   - 简单事实查询（"今天天气"、"XX是什么"）
   - 用户明确说"简单搜一下"
   - 日常对话
----
 
 # 深度调研技能（Deep Research）
 
